@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Postingan Wisata Dunia</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e")
+          no-repeat center center/cover;
+        color: white;
+        min-height: 100vh;
+      }
+      .navbar {
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+      .content-title {
+        text-align: center;
+        margin: 100px 0 40px;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+        font-weight: bold;
+      }
+      .post-card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        color: #fff;
+      }
+      .post-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      }
+      .post-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      .post-body {
+        padding: 20px;
+      }
+      .post-body h5 {
+        font-weight: 700;
+      }
+      .post-body p {
+        font-size: 0.9rem;
+        color: #e0e0e0;
+      }
+      .btn-read {
+        background: rgba(255, 255, 255, 0.2);
+        color: #fff;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 8px;
+        transition: background 0.3s ease;
+      }
+      .btn-read:hover {
+        background: rgba(255, 255, 255, 0.4);
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="nav-link text-white ms-3" href="about.html">About</a>
+        <a class="nav-link text-white ms-3" href="post.html">Post</a>
+        <div class="d-flex align-items-center mx-auto text-white small">
+          2201050004 - MOHAMAD RAFLY NAUFAL FATHIN (GENAP)
+        </div>
+        <div class="text-white small">
+          2201050004 - MOHAMAD RAFLY NAUFAL FATHIN (GANJIL)
+        </div>
+      </div>
+    </nav>
+
+    <!-- Judul -->
+    <div class="content-title">
+      <h3>Daftar Postingan Wisata Dunia</h3>
+    </div>
+
+    <!-- Konten Post -->
+    <div class="container pb-5">
+      <div class="row g-4">
+        <!-- Post 1 -->
+        <div class="col-md-4">
+          <div class="post-card">
+            <img
+              src="E:\Download\KANDANG\Foto aktvs\extras\giza.webp"
+              alt="Giza"
+              class="post-img"
+            />
+            <div class="post-body">
+              <h5>Piramida Giza, Mesir</h5>
+              <p>
+                Keajaiban dunia kuno yang menakjubkan, dibangun lebih dari 4.000
+                tahun lalu dan masih berdiri kokoh hingga kini.
+              </p>
+              <button class="btn-read">Baca Selengkapnya</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="col-md-4">
+          <div class="post-card">
+            <img
+              src="E:\Download\KANDANG\Foto aktvs\extras\cappadocia.webp"
+              alt="Cappadocia"
+              class="post-img"
+            />
+            <div class="post-body">
+              <h5>Cappadocia, Turki</h5>
+              <p>
+                Wilayah magis di Turki ini terkenal dengan balon udara
+                warna-warni yang menghiasi langit setiap pagi.
+              </p>
+              <button class="btn-read">Baca Selengkapnya</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="col-md-4">
+          <div class="post-card">
+            <img
+              src="E:\Download\KANDANG\Foto aktvs\extras\newyork.jpg"
+              alt="New York"
+              class="post-img"
+            />
+            <div class="post-body">
+              <h5>New York City, USA</h5>
+              <p>
+                Kota yang tak pernah tidur, penuh dengan gedung pencakar langit,
+                budaya urban, dan gaya hidup dinamis.
+              </p>
+              <button class="btn-read">Baca Selengkapnya</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Post 4 -->
+        <div class="col-md-4">
+          <div class="post-card">
+            <img
+              src="E:\Download\KANDANG\Foto aktvs\extras\huayana.jpg"
+              alt="Machu Picchu"
+              class="post-img"
+            />
+            <div class="post-body">
+              <h5>Machu Picchu, Peru</h5>
+              <p>
+                Kota kuno peninggalan suku Inca yang terletak di pegunungan
+                Andes, dengan panorama menakjubkan.
+              </p>
+              <button class="btn-read">Baca Selengkapnya</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Post 5 -->
+        <div class="col-md-4">
+          <div class="post-card">
+            <img
+              src="E:\Download\KANDANG\Foto aktvs\extras\acropolis.jpg"
+              alt="Acropolis"
+              class="post-img"
+            />
+            <div class="post-body">
+              <h5>Acropolis, Yunani</h5>
+              <p>
+                Situs bersejarah di Athena yang menjadi simbol kejayaan
+                peradaban Yunani kuno.
+              </p>
+              <button class="btn-read">Baca Selengkapnya</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Post 6 -->
+        <div class="col-md-4">
+          <div class="post-card">
+            <img
+              src="E:\Download\KANDANG\Foto aktvs\extras\jumeirah.jpg"
+              alt="Palm Jumeirah"
+              class="post-img"
+            />
+            <div class="post-body">
+              <h5>Palm Jumeirah, Dubai</h5>
+              <p>
+                Pulau buatan berbentuk pohon palem yang menjadi simbol kemewahan
+                dan inovasi arsitektur Dubai.
+              </p>
+              <button class="btn-read">Baca Selengkapnya</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
