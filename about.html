@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang Kami</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e")
+          no-repeat center center/cover;
+        color: white;
+        min-height: 100vh;
+      }
+      .navbar {
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+      .content-title {
+        text-align: center;
+        margin: 100px 0 40px;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+        font-weight: bold;
+      }
+      .profile-card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+        border-radius: 20px;
+        padding: 40px 20px;
+        text-align: center;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        color: #fff;
+        transition: transform 0.3s ease;
+      }
+      .profile-card:hover {
+        transform: translateY(-5px);
+      }
+      .profile-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid rgba(255, 255, 255, 0.6);
+        margin-bottom: 20px;
+      }
+      .profile-name {
+        font-weight: 700;
+        font-size: 1.2rem;
+      }
+      .profile-id {
+        font-size: 0.9rem;
+        color: #ccc;
+        margin-bottom: 20px;
+      }
+      .bio-box {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        padding: 10px 15px;
+        font-size: 0.9rem;
+        color: #eaeaea;
+        text-align: left;
+        max-width: 300px;
+        margin: 0 auto;
+      }
+      .bio-box h6 {
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="nav-link text-white ms-3" href="about.html">About</a>
+        <div class="d-flex align-items-center mx-auto text-white small">
+          2201050004 - MOHAMAD RAFLY NAUFAL FATHINI (GENAP)
+        </div>
+        <div class="text-white small">
+          2201050004 - MOHAMAD RAFLY NAUFAL FATHIN (GANJIL)
+        </div>
+      </div>
+    </nav>
+
+    <!-- Judul -->
+    <div class="content-title">
+      <h3>
+        Halaman ini dibuat oleh: 2201050004 - MOHAMAD RAFLY NAUFAL FATHIN
+        (GANJIL)
+      </h3>
+    </div>
+
+    <!-- Profil Cards -->
+    <div class="container">
+      <div class="row justify-content-center g-4">
+        <div class="col-md-5">
+          <div class="profile-card">
+            <img
+              src="C:\Users\user72\Pictures\Saved Pictures\Joko.jpg"
+              alt="Jokow"
+              class="profile-img"
+            />
+            <div class="profile-name">MOHAMAD RAFLY NAUFAL FATHIN</div>
+            <div class="profile-id">2201050004</div>
+            <div class="bio-box">
+              <h6>BIO</h6>
+              <p>
+                Professional back-end developer and Presiden of Konoha Country.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="profile-card">
+            <img
+              src="C:\Users\user72\Pictures\Saved Pictures\Monyet.jpg"
+              alt="Godek"
+              class="profile-img"
+            />
+            <div class="profile-name">MOHAMAD RAFLY NAUFAL FATHIN</div>
+            <div class="profile-id">2201050004</div>
+            <div class="bio-box">
+              <h6>BIO</h6>
+              <p>Designing front-end is my passion, sir 💖</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
